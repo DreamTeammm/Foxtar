@@ -5,4 +5,3 @@
   #### 3 набираем команду npm i 
   #### 4 устанавливаем gulp локально https://github.com/gulpjs/gulp  рекомендую gulpjs/gulp#v4.0.0-alpha.3 
   #### 5 запускаем gulp start 
-## Dimon 
