@@ -6,14 +6,712 @@
 	<title>title</title>
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="../dev/css/main.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.mixitup.js"></script>
+	<script type="text/javascript" src="js/slick.js"></script>
 </head>
 <body>
 <div class="wrapper">
 	<header class="header"></header>
-	<main class="content"></main>
+	<main class="content">
+		<div class="karkas">
+			<h2>
+				Let's Check Out Our Newest Release Products
+			</h2>
+			<div class="controls">
+				<button class="filter" data-filter="all">All</button>
+				<button class="filter" data-filter=".WordPress">WordPress</button>
+				<button class="filter" data-filter=".Joomla">Joomla</button>
+				<button class="filter" data-filter=".Plugins">Plugins</button>
+				<button class="filter" data-filter=".Components">Components</button>
+				<button class="filter" data-filter=".PSD">PSD</button>
+			</div>
+			<div id="shop_line" class="shop_line">
+				<div class="catalog clearfix">
+					<div class="mix WordPress New" data-myorder="1">
+						<div class="Mix_card">
+							<img src="images/please-enter-your-image-here.png" alt="">
+							<div class="Mix_cardfooter">
+								<div class="name_price">
+									<div class="name">
+										<span>Responsive Mobile APP</span>
+										<br>
+										<div class="circumscribing"><span>Site Template</span></div>
+									</div>
+									<div class="prise">
+										<span>$19</span>
+									</div>
+								</div>
+								<div class="user_rating">
+									<div class="user">
+										<div class="circle"></div>
+										<span>Radiustheme</span>
+									</div>
+									<div class="rating">
+										<div class="star"><img src="images/star.png" alt=""></div>
+										<span>(05)</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="mix WordPress New" data-myorder="2">
+						<div class="Mix_card">
+							<div class="triangle-topleft"></div>
+							<img src="images/please-enter-your-image-here.png" alt="">
+							<div class="Mix_cardfooter">
+								<div class="name_price">
+									<div class="name">
+										<span>The Post Grid Pro</span>
+										<br>
+										<div class="circumscribing"><span>WordPress Plugin</span></div>
+									</div>
+									<div class="prise">
+										<span>$15</span>
+									</div>
+								</div>
+								<div class="user_rating">
+									<div class="user">
+										<div class="circle"></div>
+										<span>PsdBoss</span>
+									</div>
+									<div class="rating">
+										<div class="star"><img src="images/star.png" alt=""></div>
+										<span>(05)</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="mix WordPress" data-myorder="3">
+						<div class="Mix_card">
+							<img src="images/please-enter-your-image-here.png" alt="">
+							<div class="Mix_cardfooter">
+								<div class="name_price">
+									<div class="name">
+										<span>Food Menu</span>
+										<br>
+										<div class="circumscribing"><span>WordPress Plugin</span></div>
+									</div>
+									<div class="prise">
+										<span>$20</span>
+									</div>
+								</div>
+								<div class="user_rating">
+									<div class="user">
+										<div class="circle"></div>
+										<span>Manilip</span>
+									</div>
+									<div class="rating">
+										<div class="star"><img src="images/star.png" alt=""></div>
+										<span>(05)</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="mix Plugins New" data-myorder="4">
+						<div class="Mix_card">
+							<img src="images/please-enter-your-image-here.png" alt="">
+							<div class="Mix_cardfooter">
+								<div class="name_price">
+									<div class="name">
+										<span>Imac Mockup</span>
+										<br>
+										<div class="circumscribing"><span>Psd Template</span></div>
+									</div>
+									<div class="prise">
+										<span>$12</span>
+									</div>
+								</div>
+								<div class="user_rating">
+									<div class="user">
+										<div class="circle"></div>
+										<span>Lolypop</span>
+									</div>
+									<div class="rating">
+										<div class="star"><img src="images/star.png" alt=""></div>
+										<span>(05)</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="mix WordPress New Popular" data-myorder="5">
+						<div class="Mix_card">
+							<img src="images/please-enter-your-image-here.png" alt="">
+							<div class="Mix_cardfooter">
+								<div class="name_price">
+									<div class="name">
+										<span>Gymedge</span>
+										<br>
+										<div class="circumscribing"><span>Joomla Temaplate</span></div>
+									</div>
+									<div class="prise">
+										<span>$45</span>
+									</div>
+								</div>
+								<div class="user_rating">
+									<div class="user">
+										<div class="circle"></div>
+										<span>Micrsof</span>
+									</div>
+									<div class="rating">
+										<div class="star"><img src="images/star.png" alt=""></div>
+										<span>(05)</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="mix Plugins Popular" data-myorder="6">
+						<div class="Mix_card">
+							<img src="images/please-enter-your-image-here.png" alt="">
+							<div class="Mix_cardfooter">
+								<div class="name_price">
+									<div class="name">
+										<span>The Post Grid Pro</span>
+										<br>
+										<div class="circumscribing"><span>WordPress Plugin</span></div>
+									</div>
+									<div class="prise">
+										<span>$19</span>
+									</div>
+								</div>
+								<div class="user_rating">
+									<div class="user">
+										<div class="circle"></div>
+										<span>Raclouse</span>
+									</div>
+									<div class="rating">
+										<div class="star"><img src="images/star.png" alt=""></div>
+										<span>(05)</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="mix Joomla New Popular" data-myorder="7">
+						<div class="Mix_card">
+							<div class="triangle-topleft"></div>
+							<img src="images/please-enter-your-image-here.png" alt="">
+							<div class="Mix_cardfooter">
+								<div class="name_price">
+									<div class="name">
+										<span>Doll Face</span>
+										<br>
+										<div class="circumscribing"><span>Illsatration</span></div>
+									</div>
+									<div class="prise">
+										<span>$10</span>
+									</div>
+								</div>
+								<div class="user_rating">
+									<div class="user">
+										<div class="circle"></div>
+										<span>mick Art</span>
+									</div>
+									<div class="rating">
+										<div class="star"><img src="images/star.png" alt=""></div>
+										<span>(05)</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="mix PSD Popular" data-myorder="8">
+						<div class="Mix_card">
+							<img src="images/please-enter-your-image-here.png" alt="">
+							<div class="Mix_cardfooter">
+								<div class="name_price">
+									<div class="name">
+										<span>Designer Mockup</span>
+										<br>
+										<div class="circumscribing"><span>Psd Template</span></div>
+									</div>
+									<div class="prise">
+										<span>$10</span>
+									</div>
+								</div>
+								<div class="user_rating">
+									<div class="user">
+										<div class="circle"></div>
+										<span>ThemeLol</span>
+									</div>
+									<div class="rating">
+										<div class="star"><img src="images/star.png" alt=""></div>
+										<span>(05)</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="controls">
+				<a href="#" class="btn">All New Items</a>
+				<a href="#" class="btn">Popular Items</a>
+			</div>
+		</div>
+		<div class="week_products">
+			<h2>This Week Trending Products</h2>
+			<div class="slider_products">
+				<div class="Mix_card">
+					<div class="triangle-topleft"></div>
+					<img src="images/please-enter-your-image-here.png" alt="">
+					<div class="Mix_cardfooter">
+						<div class="name_price">
+							<div class="name">
+								<span>Responsive Template</span>
+								<br>
+								<div class="circumscribing"><span>Site Template</span></div>
+							</div>
+							<div class="prise">
+								<span>$19</span>
+							</div>
+						</div>
+						<div class="user_rating">
+							<div class="user">
+								<div class="circle"></div>
+								<span>Radiustheme</span>
+							</div>
+							<div class="rating">
+								<div class="star"><img src="images/star.png" alt=""></div>
+								<span>(05)</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div>
+					<div class="Mix_card">
+						<div class="triangle-topleft"></div>
+						<img src="images/please-enter-your-image-here.png" alt="">
+						<div class="Mix_cardfooter">
+							<div class="name_price">
+								<div class="name">
+									<span>The Post Grid Pro</span>
+									<br>
+									<div class="circumscribing"><span>WordPress Plugin</span></div>
+								</div>
+								<div class="prise">
+									<span>$15</span>
+								</div>
+							</div>
+							<div class="user_rating">
+								<div class="user">
+									<div class="circle"></div>
+									<span>PsdBoss</span>
+								</div>
+								<div class="rating">
+									<div class="star"><img src="images/star.png" alt=""></div>
+									<span>(05)</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div>
+					<div class="Mix_card">
+						<div class="triangle-topleft"></div>
+						<img src="images/please-enter-your-image-here.png" alt="">
+						<div class="Mix_cardfooter">
+							<div class="name_price">
+								<div class="name">
+									<span>Logo Showcae</span>
+									<br>
+									<div class="circumscribing"><span>Joomla Cmponent</span></div>
+								</div>
+								<div class="prise">
+									<span>$20</span>
+								</div>
+							</div>
+							<div class="user_rating">
+								<div class="user">
+									<div class="circle"></div>
+									<span>Manilip</span>
+								</div>
+								<div class="rating">
+									<div class="star"><img src="images/star.png" alt=""></div>
+									<span>(05)</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div>
+					<div class="Mix_card">
+						<div class="triangle-topleft"></div>
+						<img src="images/please-enter-your-image-here.png" alt="">
+						<div class="Mix_cardfooter">
+							<div class="name_price">
+								<div class="name">
+									<span>UI Design</span>
+									<br>
+									<div class="circumscribing"><span>Psd Template</span></div>
+								</div>
+								<div class="prise">
+									<span>$12</span>
+								</div>
+							</div>
+							<div class="user_rating">
+								<div class="user">
+									<div class="circle"></div>
+									<span>Lolypop</span>
+								</div>
+								<div class="rating">
+									<div class="star"><img src="images/star.png" alt=""></div>
+									<span>(05)</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div>
+					<div class="Mix_card">
+						<div class="triangle-topleft"></div>
+						<img src="images/please-enter-your-image-here.png" alt="">
+						<div class="Mix_cardfooter">
+							<div class="name_price">
+								<div class="name">
+									<span>The Post Grid Pro</span>
+									<br>
+									<div class="circumscribing"><span>WordPress Plugin</span></div>
+								</div>
+								<div class="prise">
+									<span>$15</span>
+								</div>
+							</div>
+							<div class="user_rating">
+								<div class="user">
+									<div class="circle"></div>
+									<span>PsdBoss</span>
+								</div>
+								<div class="rating">
+									<div class="star"><img src="images/star.png" alt=""></div>
+									<span>(05)</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div>
+					<div class="Mix_card">
+						<div class="triangle-topleft"></div>
+						<img src="images/please-enter-your-image-here.png" alt="">
+						<div class="Mix_cardfooter">
+							<div class="name_price">
+								<div class="name">
+									<span>The Post Grid Pro</span>
+									<br>
+									<div class="circumscribing"><span>WordPress Plugin</span></div>
+								</div>
+								<div class="prise">
+									<span>$15</span>
+								</div>
+							</div>
+							<div class="user_rating">
+								<div class="user">
+									<div class="circle"></div>
+									<span>PsdBoss</span>
+								</div>
+								<div class="rating">
+									<div class="star"><img src="images/star.png" alt=""></div>
+									<span>(05)</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div>
+					<div class="Mix_card">
+						<div class="triangle-topleft"></div>
+						<img src="images/please-enter-your-image-here.png" alt="">
+						<div class="Mix_cardfooter">
+							<div class="name_price">
+								<div class="name">
+									<span>The Post Grid Pro</span>
+									<br>
+									<div class="circumscribing"><span>WordPress Plugin</span></div>
+								</div>
+								<div class="prise">
+									<span>$15</span>
+								</div>
+							</div>
+							<div class="user_rating">
+								<div class="user">
+									<div class="circle"></div>
+									<span>PsdBoss</span>
+								</div>
+								<div class="rating">
+									<div class="star"><img src="images/star.png" alt=""></div>
+									<span>(05)</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div>
+					<div class="Mix_card">
+						<div class="triangle-topleft"></div>
+						<img src="images/please-enter-your-image-here.png" alt="">
+						<div class="Mix_cardfooter">
+							<div class="name_price">
+								<div class="name">
+									<span>The Post Grid Pro</span>
+									<br>
+									<div class="circumscribing"><span>WordPress Plugin</span></div>
+								</div>
+								<div class="prise">
+									<span>$15</span>
+								</div>
+							</div>
+							<div class="user_rating">
+								<div class="user">
+									<div class="circle"></div>
+									<span>PsdBoss</span>
+								</div>
+								<div class="rating">
+									<div class="star"><img src="images/star.png" alt=""></div>
+									<span>(05)</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div>
+					<div class="Mix_card">
+						<div class="triangle-topleft"></div>
+						<img src="images/please-enter-your-image-here.png" alt="">
+						<div class="Mix_cardfooter">
+							<div class="name_price">
+								<div class="name">
+									<span>The Post Grid Pro</span>
+									<br>
+									<div class="circumscribing"><span>WordPress Plugin</span></div>
+								</div>
+								<div class="prise">
+									<span>$15</span>
+								</div>
+							</div>
+							<div class="user_rating">
+								<div class="user">
+									<div class="circle"></div>
+									<span>PsdBoss</span>
+								</div>
+								<div class="rating">
+									<div class="star"><img src="images/star.png" alt=""></div>
+									<span>(05)</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div>
+					<div class="Mix_card">
+						<div class="triangle-topleft"></div>
+						<img src="images/please-enter-your-image-here.png" alt="">
+						<div class="Mix_cardfooter">
+							<div class="name_price">
+								<div class="name">
+									<span>The Post Grid Pro</span>
+									<br>
+									<div class="circumscribing"><span>WordPress Plugin</span></div>
+								</div>
+								<div class="prise">
+									<span>$15</span>
+								</div>
+							</div>
+							<div class="user_rating">
+								<div class="user">
+									<div class="circle"></div>
+									<span>PsdBoss</span>
+								</div>
+								<div class="rating">
+									<div class="star"><img src="images/star.png" alt=""></div>
+									<span>(05)</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div>
+					<div class="Mix_card">
+						<div class="triangle-topleft"></div>
+						<img src="images/please-enter-your-image-here.png" alt="">
+						<div class="Mix_cardfooter">
+							<div class="name_price">
+								<div class="name">
+									<span>The Post Grid Pro</span>
+									<br>
+									<div class="circumscribing"><span>WordPress Plugin</span></div>
+								</div>
+								<div class="prise">
+									<span>$15</span>
+								</div>
+							</div>
+							<div class="user_rating">
+								<div class="user">
+									<div class="circle"></div>
+									<span>PsdBoss</span>
+								</div>
+								<div class="rating">
+									<div class="star"><img src="images/star.png" alt=""></div>
+									<span>(05)</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div>
+					<div class="Mix_card">
+						<div class="triangle-topleft"></div>
+						<img src="images/please-enter-your-image-here.png" alt="">
+						<div class="Mix_cardfooter">
+							<div class="name_price">
+								<div class="name">
+									<span>The Post Grid Pro</span>
+									<br>
+									<div class="circumscribing"><span>WordPress Plugin</span></div>
+								</div>
+								<div class="prise">
+									<span>$15</span>
+								</div>
+							</div>
+							<div class="user_rating">
+								<div class="user">
+									<div class="circle"></div>
+									<span>PsdBoss</span>
+								</div>
+								<div class="rating">
+									<div class="star"><img src="images/star.png" alt=""></div>
+									<span>(05)</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div>
+					<div class="Mix_card">
+						<div class="triangle-topleft"></div>
+						<img src="images/please-enter-your-image-here.png" alt="">
+						<div class="Mix_cardfooter">
+							<div class="name_price">
+								<div class="name">
+									<span>The Post Grid Pro</span>
+									<br>
+									<div class="circumscribing"><span>WordPress Plugin</span></div>
+								</div>
+								<div class="prise">
+									<span>$15</span>
+								</div>
+							</div>
+							<div class="user_rating">
+								<div class="user">
+									<div class="circle"></div>
+									<span>PsdBoss</span>
+								</div>
+								<div class="rating">
+									<div class="star"><img src="images/star.png" alt=""></div>
+									<span>(05)</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div>
+					<div class="Mix_card">
+						<div class="triangle-topleft"></div>
+						<img src="images/please-enter-your-image-here.png" alt="">
+						<div class="Mix_cardfooter">
+							<div class="name_price">
+								<div class="name">
+									<span>The Post Grid Pro</span>
+									<br>
+									<div class="circumscribing"><span>WordPress Plugin</span></div>
+								</div>
+								<div class="prise">
+									<span>$15</span>
+								</div>
+							</div>
+							<div class="user_rating">
+								<div class="user">
+									<div class="circle"></div>
+									<span>PsdBoss</span>
+								</div>
+								<div class="rating">
+									<div class="star"><img src="images/star.png" alt=""></div>
+									<span>(05)</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div>
+					<div class="Mix_card">
+						<div class="triangle-topleft"></div>
+						<img src="images/please-enter-your-image-here.png" alt="">
+						<div class="Mix_cardfooter">
+							<div class="name_price">
+								<div class="name">
+									<span>The Post Grid Pro</span>
+									<br>
+									<div class="circumscribing"><span>WordPress Plugin</span></div>
+								</div>
+								<div class="prise">
+									<span>$15</span>
+								</div>
+							</div>
+							<div class="user_rating">
+								<div class="user">
+									<div class="circle"></div>
+									<span>PsdBoss</span>
+								</div>
+								<div class="rating">
+									<div class="star"><img src="images/star.png" alt=""></div>
+									<span>(05)</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div>
+					<div class="Mix_card">
+						<div class="triangle-topleft"></div>
+						<img src="images/please-enter-your-image-here.png" alt="">
+						<div class="Mix_cardfooter">
+							<div class="name_price">
+								<div class="name">
+									<span>The Post Grid Pro</span>
+									<br>
+									<div class="circumscribing"><span>WordPress Plugin</span></div>
+								</div>
+								<div class="prise">
+									<span>$15</span>
+								</div>
+							</div>
+							<div class="user_rating">
+								<div class="user">
+									<div class="circle"></div>
+									<span>PsdBoss</span>
+								</div>
+								<div class="rating">
+									<div class="star"><img src="images/star.png" alt=""></div>
+									<span>(05)</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	</main>
 	<footer class="footer"></footer>
 </div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="js/main.js"></script>	
+
+<script src="js/main.js"></script>
 </body>
 </html>
