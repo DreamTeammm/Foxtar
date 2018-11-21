@@ -33,11 +33,11 @@ body {
 }
 
 .title {
-	font-family: robotobold;
 	font-size: 36px;
 	text-align: center;
 	color: #000;
 	margin-bottom: 40px;
+	font-weight: 700;
 }
 
 .tabs-menu {
@@ -55,7 +55,6 @@ body {
 	background-color: #fff;
 	text-decoration: none;
 	transition: .3s;
-	font-family: robotomedium;
 	font-size: 13px;
 	padding: 10px 25px;
 	margin: 5px 3px;
@@ -126,17 +125,17 @@ body {
 }
 
 .card-caption {
-	font-family: robotomedium;
 	font-size: 18px;
 	color: #000;
 	margin-bottom: 20px;
+	font-weight: 500;
 }
 
 .card-divide {
-	font-family: robotomedium;
 	font-size: 13px;
 	color: #8CFF75;
 	margin-bottom: 20px;
+	font-weight: 500;
 }
 
 .card-price {
@@ -144,9 +143,9 @@ body {
 }
 
 .price {
-	font-family: robotobold;
 	font-size: 18px;
 	color: #000;
+	font-weight: 700;
 }
 
 .card-footer {
@@ -172,11 +171,11 @@ body {
 }
 
 .author {
-	font-family: robotomedium;
 	font-size: 13px;
 	color: #777;
 	padding-left: 45px;
 	padding-top: 7.5px;
+	font-weight: 500;
 }
 
 .card-rating {
@@ -189,7 +188,6 @@ body {
 }
 
 .rating-number {
-	font-family: robotoregular;
 	font-size: 11px;
 	color: #000;
 }
@@ -204,7 +202,6 @@ body {
 	text-decoration: none;
 	border: 1px solid #E8E8E8;
 	transition: .3s;
-	font-family: robotoregular;
 	font-size: 16px;
 	padding: 15px 35px;
 	margin: 0 4px;
@@ -407,21 +404,18 @@ body {
 }
 
 .help .need_help {
-	font-family: 'Roboto Regular', sans-serif;
 	font-size: 15px;
 	color: #e74c3c;
 	text-decoration: none;
 }
 
 .talk_to {
-	font-family: 'Roboto Regular', sans-serif;
 	font-size: 15px;
 	color: #546e7a;
 
 }
 
 .talk_to a {
-	font-family: 'Roboto Regular', sans-serif;
 	font-size: 15px;
 	color: #546e7a;
 	text-decoration: none;
@@ -474,7 +468,6 @@ body {
 	-webkit-transition: .3s;
 	transition: .3s;
 	letter-spacing: 0.2em;
-	font-family: 'Robot Regular', sans-serif;
 	font-size: 12px;
 	color: #ffffff;
 	border-radius: 10px;
@@ -592,10 +585,10 @@ body {
 .menu_list a {
 	text-decoration: none;
 	color: #ffffff;
-	font-family: 'Roboto Medium', sans-serif;
 	font-size: 14px;
 	-webkit-transition: color 0.3s;
 	transition: color 0.3s;
+	font-weight: 500;
 }
 
 @media (max-width: 768px) {
@@ -677,17 +670,17 @@ body {
 .banner h1 {
 	margin: 0;
 	margin-bottom: 30px;
-	font-family: 'Roboto Bold', sans-serif;
 	font-size: 48px;
 	text-transform: capitalize;
 	color: #ffffff;
+	font-weight: 700;
 }
 
 .banner span {
-	font-family: 'Roboto Medium', sans-serif;
 	font-size: 20px;
 	text-transform: capitalize;
 	color: #ffffff;
+	font-weight: 500;
 }
 
 
@@ -755,6 +748,6 @@ body {
 ::-webkit-input-placeholder {
 	text-transform: capitalize;
 	color:#90a4ae;
-	font-family: 'Roboto Medium', sans-serif;
 	font-size: 14px;
+	font-weight: 500;
 }
