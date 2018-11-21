@@ -751,3 +751,57 @@ body {
 	font-size: 14px;
 	font-weight: 500;
 }
+
+.why {
+	padding-top: 120px;
+	background-color: #263238;
+	padding-bottom: 118px;
+}
+
+.title {
+	font-size: 36px;
+	margin-bottom: 85px;
+	color: #fff;
+	font-weight: 700;
+}
+
+.row {
+	margin-left: -15px;
+	margin-right:-15px;
+}
+
+.col-4 {
+	float: left;
+	width: 33.3333%;
+	padding:0 15px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text span {
+	font-size: 24px;
+	font-weight: 500;
+	color: #fff;
+}
+
+.text p {
+	padding: 0 27px;
+	line-height: 25px;
+	font-size:15px;
+	color: #b0bec5;
+	font-weight: 400;
+	margin-top: 25px;
+}
+
+.text .special {
+	color: #8bc34a;
+}
+
+.avatar {
+	width: 113px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 33px;
+}
