@@ -1,6 +1,7 @@
 // page init
 jQuery(function(){
 	initProductSlider();
+	initTabsCaption();
 	initShopLine();
 	initBurger();
 });
@@ -9,6 +10,23 @@ jQuery(function(){
 function initBurger() {
 	jQuery('.toggle-menu').on('click', function () {
 		jQuery('.menu').toggleClass('open');
+	});
+}
+
+
+// init tabs caption
+function initTabsCaption() {
+	jQuery('ul.tabs-caption').on('click', 'li:not(.active)', function() {
+		jQuery(this)
+			.addClass('active')
+			.siblings()
+			.removeClass('active')
+			.closest('div.tabs')
+			.find('div.tabs-content')
+			.removeClass('active')
+			.eq($(this)
+			.index())
+			.addClass('active');
 	});
 }
 
