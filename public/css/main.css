@@ -100,8 +100,11 @@
 	text-decoration: none;
 }
 
+.basket {
+	padding-right: 25px;
+}
 
-.header_icons {
+.basket_link {
 	width: 35px;
 	height: 35px;
 	border-radius: 50%;
@@ -118,69 +121,14 @@
 	position: relative;
 }
 
-.bell {
-	padding-right: 25px;
-}
-
-.bell_icon {
-	width: 16px;
-	height: 14px;
-	background-image: url("../images/header_bell.png");
-	background-repeat: no-repeat;
-}
-
- 
-.counter_bell {
-	width: 18px;
-	height: 18px;
-	border-radius: 50%;
-	background-color: #fcb322;
-	position: absolute;
-	z-index: 1;
-	color: #ffffff;
-	text-align: center;
-	bottom:23px;
-	left: 26px;
-}
-
-.envelope {
-	padding-right: 25px;
-}
-
-.envelope_icon {
-	width: 16px;
-	height: 14px;
-	background-image: url("../images/header_envelope.png");
-	background-repeat: no-repeat;
-}
-
- 
-.counter_envelope {
-	width: 18px;
-	height: 18px;
-	border-radius: 50%;
-	background-color: #ef6c00;
-	position: absolute;
-	z-index: 1;
-	color: #ffffff;
-	text-align: center;
-	bottom:23px;
-	left: 26px;
-}
-
-.basket {
-	padding-right: 25px;
-}
-
 .basket_icon {
 	width: 16px;
 	height: 14px;
 	background-image: url("../images/basket.png");
-	background-repeat: no-repeat;
 }
 
  
-.counter_basket {
+.counter {
 	width: 18px;
 	height: 18px;
 	border-radius: 50%;
@@ -193,54 +141,6 @@
 	left: 26px;
 }
 
-.header_image {
-	margin-right: 15px;
-}
-
-.header_image .header_icons {
-	width: 35px;
-	height: 35px;
-	border-radius: 50%;
-	background-color: #b5b5b5;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	align-items: center;
-	-webkit-box-pack: center;
-	-ms-flex-pack: center;
-	justify-content: center;
-	position: relative;
-}
-
-.header_select select {
-	border: 0;
-	-webkit-appearance: none;
-	-moz-appearance: none;
-	appearance: none;
-	position: relative;
-	overflow-y: hidden;
-}
-
-.header_select option {
-	padding-bottom: 2px;
-}
-
-.header_select_arrow {
-	height:10px;
-	width:10px;
-	background: url("../images/header_select.png");
-	background-repeat: no-repeat;
-	position: absolute;
-	margin-left: 85px;
-	margin-top: -30px;
-}
-
-
-
-
-
 .btn_header {
 	padding: 10px 20px;
 	-webkit-transition: .3s;
@@ -248,7 +148,6 @@
 	letter-spacing: 0.2em;
 	border-radius: 10px;
 	margin-right: 10px;
-	margin-left: 30px;
 }
 
 .btn_header a {
@@ -432,7 +331,7 @@
 	text-align: center;
 	background: url("../images/banner.png") no-repeat center;
 	background-size: cover;
-	min-height: 230px;
+	min-height: 530px;
 	padding: 25px 0;
 	display: -webkit-box;
 	display: -ms-flexbox;
