@@ -1,14 +1,24 @@
-$(function(){
-	$('.toggle-menu').on('click',function(){
-		$('.menu').toggleClass('open');
-	});
+
+
+// page init
+jQuery(function(){
+	initBurger();
+	initPopup();
 });
 
-$(function(){
-  $('button').click(function(){
-    $('.popup,.popup_overlay').fadeIn(400); //показываем всплывающее окно
+// init burger
+function initBurger() {
+	jQuery('.toggle-menu').on('click', function () {
+		jQuery('.menu').toggleClass('open');
+	});
+
+};
+
+function initPopup(){
+  jQuery('button').click(function initPopup(){
+    jQuery('.popup,.popup_overlay').fadeIn(400); //показываем всплывающее окно
   });
-  $('.closer,.popup_overlay').click(function(){
-    $('.popup,.popup_overlay').fadeOut(400); //скрываем всплывающее окно
+  jQuery('.closer,.popup_overlay').click(function(){
+    jQuery('.popup,.popup_overlay').fadeOut(400); //скрываем всплывающее окно
   });
-});
+};
