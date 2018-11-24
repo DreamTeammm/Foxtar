@@ -100,11 +100,7 @@
 	text-decoration: none;
 }
 
-.basket {
-	padding-right: 25px;
-}
-
-.basket_link {
+.header_icons {
 	width: 35px;
 	height: 35px;
 	border-radius: 50%;
@@ -121,14 +117,71 @@
 	position: relative;
 }
 
-.basket_icon {
+.bell {
+	padding-right: 25px;
+}
+
+.bell_icon {
 	width: 16px;
 	height: 14px;
-	background-image: url("../images/basket.png");
+	background-image: url("../images/header_bell.png");
+	background-repeat: no-repeat;
 }
 
  
-.counter {
+.counter_bell {
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	background-color: #fcb322;
+	position: absolute;
+	z-index: 1;
+	color: #ffffff;
+	text-align: center;
+	bottom:23px;
+	left: 26px;
+}
+
+.envelope {
+	padding-right: 25px;
+}
+
+.envelope_icon {
+	width: 16px;
+	height: 14px;
+	background-image: url("../images/header_envelope.png");
+	background-repeat: no-repeat;
+}
+
+ 
+.counter_envelope {
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	background-color: #ef6c00;
+	position: absolute;
+	z-index: 1;
+	color: #ffffff;
+	text-align: center;
+	bottom:23px;
+	left: 26px;
+}
+
+.basket {
+	padding-right: 25px;
+}
+
+
+
+.basket_icon {
+	width: 16px;
+	height: 14px;
+	background-image: url("../images/basket_header.png");
+	background-repeat: no-repeat;
+}
+
+ 
+.counter_basket {
 	width: 18px;
 	height: 18px;
 	border-radius: 50%;
@@ -139,6 +192,50 @@
 	text-align: center;
 	bottom:23px;
 	left: 26px;
+}
+
+.header_image {
+	margin-right: 15px;
+}
+
+.header_image .header_icons {
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	background-color: #b5b5b5;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	position: relative;
+}
+
+.header_select select {
+	border: 0;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	position: relative;
+	overflow-y: hidden;
+}
+
+.header_select option {
+	padding-bottom: 2px;
+}
+
+.header_select_arrow {
+	height:10px;
+	width:10px;
+	background: url("../images/header_select.png");
+	background-repeat: no-repeat;
+	position: absolute;
+	margin-left: 85px;
+	margin-top: -30px;
 }
 
 .btn_header {
@@ -179,6 +276,7 @@
 
 .btn_header-register {
 	background-color: #e74c3c;
+	margin-left: 25px;
 }
 
 @media (max-width: 576px){
@@ -342,6 +440,10 @@
 	-webkit-box-pack: center;
 	-ms-flex-pack: center;
 	justify-content: center;
+}
+
+.banner.banner-small {
+	min-height: 230px;
 }
 
 @media (max-width: 768px){
