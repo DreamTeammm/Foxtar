@@ -1,9 +1,10 @@
 // page init
 jQuery(function(){
+	initBurger();
+	initPopup();
 	initProductSlider();
 	initTabsCaption();
 	initShopLine();
-	initBurger();
 });
 
 // init burger
@@ -12,6 +13,16 @@ function initBurger() {
 		jQuery('.menu').toggleClass('open');
 	});
 }
+
+// init popup
+function initPopup(){
+	jQuery('button').click(function initPopup(){
+		jQuery('.popup,.popup_overlay').fadeIn(400); //показываем всплывающее окно
+	});
+	jQuery('.closer,.popup_overlay').click(function(){
+		jQuery('.popup,.popup_overlay').fadeOut(400); //скрываем всплывающее окно
+	});
+};
 
 // init tabs caption
 function initTabsCaption() {
