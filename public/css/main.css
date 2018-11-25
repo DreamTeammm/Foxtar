@@ -832,23 +832,38 @@ body {
 
 /* ---------- BECOME AUTHOR SECTION ---------- */
 .becomeAuthorSection {
-	background-color: #f4f6f5;
-	height: 700px;
 	width: 100%;
-	padding-top: 115px;
-	padding-bottom: 115px;
+	min-height: 700px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	background-color: #f4f6f5;
+}
+
+.becomeAuthorSection .container {
+	width: 100%;
 }
 
 .authorContainer {
-	padding-top: 115px;
-	padding-bottom: 115px;
+	padding: 15px;
+	min-height: 416px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
 	background-color: #b5b5b5;
 }
 
 .innerContainer {
 	vertical-align: middle;
+	width: 100%;
 	height: 220px;
-	width: 660px;
+	max-width: 660px;
 	padding-top: 115px;
 	padding-bottom: 115px;
 	background-color: #8bc34a;
