@@ -582,6 +582,7 @@ body {
 
 .newest-tabs-caption li:hover {
 	color: #000;
+	background-color: #FFC7C8;
 	cursor: pointer;
 }
 
@@ -613,6 +614,12 @@ body {
 	position: relative;
 	margin: 15px 0;
 	border: 1px solid #E8E8E8;
+	transition: .5s;
+	background-color: #fff;
+}
+
+.product-card:hover {
+	box-shadow: 0 5px 5px #E6E6E6, 0 10px 10px #E6E6E6;
 }
 
 .product-card img {
@@ -640,20 +647,29 @@ body {
 .card-title {
 	padding-left: 30px;
 	padding-top: 30px;
+	text-align: left;	
 }
 
 .card-caption {
 	font-size: 18px;
-	color: #000;
 	margin-bottom: 20px;
 	font-weight: 500;
 }
 
+.card-caption a {
+	text-decoration: none;
+	color: #000;	
+}
+
 .card-divide {
 	font-size: 13px;
-	color: #8CFF75;
 	margin-bottom: 20px;
 	font-weight: 500;
+}
+
+.card-divide a {
+	text-decoration: none;
+	color: #8BC34A;
 }
 
 .card-price {
@@ -690,10 +706,14 @@ body {
 
 .author {
 	font-size: 13px;
-	color: #777;
 	padding-left: 45px;
 	padding-top: 7.5px;
 	font-weight: 500;
+}
+
+.author a {
+	text-decoration: none;
+	color: #777;
 }
 
 .card-rating {
@@ -840,7 +860,7 @@ body {
 	-webkit-box-align: center;
 	-ms-flex-align: center;
 	align-items: center;
-	background-color: #f4f6f5;
+	background-color: #F8FFFF;
 }
 
 .becomeAuthorSection .container {
@@ -902,7 +922,6 @@ body {
 /* ---------- FOOTER ---------- */
 /* ---------- END ---------- */
 
-
 /*
 =======================================
 	Details page
@@ -926,6 +945,7 @@ body {
 	padding: 20px;
 	border: 1px solid #DEDEDE;
 	margin-bottom: 40px;
+	background-color: #fff;
 }
 
 .product-image img {
@@ -937,7 +957,7 @@ body {
 	margin-bottom: 45px;
 }
 
-.product-header  .product-title {
+.product-header .product-title {
 	font-size: 30px;
 	font-weight: 500;
 	text-align: left;
@@ -1092,10 +1112,11 @@ body {
 
 .tabs-content {
 	display: none;
-	height: 250px;
-	overflow-y: scroll;
+	height: auto;
+	overflow-y: auto;
 	border: 1px solid #DEDEDE;
 	background-color: #fff;
+	padding-bottom: 15px;
 }
 
 .tabs-content.active {
@@ -1199,15 +1220,23 @@ body {
 .more-card-title {
 	display: inline-block;
 	font-size: 13px;
-	color: #000;
 	margin-bottom: 12px;
 	font-weight: 500;
 }
 
+.more-card-title a {
+	text-decoration: none;
+	color: #000;
+}
+
 .more-card-type {
 	font-size: 12px;
-	color: #AED488;
 	margin-bottom: 12px;
+}
+
+.more-card-type a {
+	text-decoration: none;
+	color: #AED488;
 }
 
 .more-card-price {
@@ -1219,6 +1248,224 @@ body {
 
 /*
 =======================================
+	Items page
+=======================================
+*/
+
+/* ---------- TOP SELLERS SECTION ---------- */
+
+.top-sellers {
+	display: inline-block;	
+	border: 1px solid #ccc;
+	background-color: #fff;	
+}
+
+.sidebar-container {
+	max-width: 300px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.top-sellers-header {
+	font-size: 20px;
+	font-weight: 600;
+	padding-left: 15px;
+	margin: 20px 0;
+}
+
+.top-sellers-col {
+	text-align: center;
+	padding: 0 15px;
+}
+
+.top-sellers-card {
+	position: relative;
+	margin: 15px 0;
+	border-top: 1px solid #ccc;
+	transition: .5s;
+}
+
+.top-sellers-card img {
+	width: 100%;
+	height: auto;
+}
+
+.top-card-body {
+	border-bottom: 0;
+}
+
+.top-card-image {
+	margin-top: 25px;
+}
+
+.top-card-image img {
+	width: 100%;
+	height: auto;
+}
+
+.top-card-title {
+	padding-top: 15px;
+	padding-left: 0;
+}
+
+.top-card-caption {
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+.top-card-price {	
+	padding-right: 0;
+}
+
+.top-card-price span {	
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.top-card-footer {
+	padding: 0;
+	padding-bottom: 10px;
+}
+
+.top-sellers-button {
+	margin-top: 25px;
+	margin-bottom: 30px;
+}
+
+.top-sellers-button a {
+	text-align: center;	
+	width: 100%;
+}
+
+/* ---------- END ---------- */
+
+/* ---------- NEW ITEMS CATALOG SECTION ---------- */
+
+.new-items-catalog {
+	display: inline-block;
+	background-color: #F8FFFF;
+	width: calc(100% - 300px);	
+}
+
+.new-items-show {
+	padding: 0 15px;
+	margin-bottom: 15px;
+}
+
+.new-items-sort {
+	display: inline-block;
+	padding: 15px 20px;
+	border: 1px solid #E8E8E8;
+	background-color: #fff;	
+	width: 100%;
+}
+
+.sort-order {
+	display: inline-block;
+	float: left;
+}
+
+.sort-order img {
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+.sort-by-text {
+	display: inline-block;
+	vertical-align: top;
+	padding: 0 10px;
+}
+
+.sort-by-text span {
+	color: #777;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.sort-by-text a {
+	color: #777;	
+	text-decoration: none;
+}
+
+.sort-by-text a:hover {
+	color: #8BC34A;
+}
+
+.new-items-col-3 {
+	width: 33.3333%;
+}
+
+.display-style {
+	display: inline-block;
+	float: right;
+}
+
+.display-style img {
+	vertical-align: middle;
+	padding: 0 3px;
+	cursor: pointer;
+}
+
+.new-card-title {
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+.new-card-caption {
+	font-size: 16px;
+	font-weight: 500;
+	margin-bottom: 10px;
+}
+
+.new-card-price {
+	padding-right: 20px;
+	font-size: 18px;
+	font-weight: 700;	
+}
+
+.new-card-footer {
+	padding: 15px 20px;
+}
+
+.new-items-list {
+	padding: 0 15px;
+	margin-bottom: 50px;
+}	
+
+.new-items-list li {
+	display: inline-block;
+}
+
+.new-items-list a {
+	background-color: #fff;
+	text-decoration: none;
+	border: 1px solid #E8E8E8;
+	transition: .3s;
+	font-size: 16px;
+	padding: 10px 16px;
+	margin: 0 1px;
+	color: #000;
+	font-weight: 500;
+}
+
+.new-items-list a:hover {
+	background-color: #FF8F95;
+	color: #fff;
+	cursor: pointer;
+}
+
+.new-items-list a.active {
+	background-color: #E84745;
+	color: #fff;	
+}
+
+/* ---------- END ---------- */
+
+/*
+=======================================
 	MEDIA BREAKPOINTS
 =======================================
 */
@@ -1226,6 +1473,10 @@ body {
 @media (max-width: 1200px) {
 	.product-col-3 {
 		width: 33.3333%;
+	}
+
+	.new-items-col-3 {
+		width: 50%;
 	}
 }
 
@@ -1254,6 +1505,10 @@ body {
 	.more-products-col-4 {
 		width: 50%;
 	}
+
+	.new-items-col-3 {
+		width: 100%;
+	}		
 }
 
 @media (max-width: 768px) {
@@ -1383,6 +1638,10 @@ body {
 		padding-top: 7px;
 		padding-bottom: 7px;
 	}
+
+	.top-card-footer {
+		padding: 0 10px;
+	}
 }
 
 @media (max-width: 576px) {
@@ -1436,6 +1695,24 @@ body {
 	.banner input {
 		width: 80%;
 	}
+
+	.top-sellers {
+		display: block;
+		margin-bottom: 35px;
+	}
+
+	.sidebar-container {
+		max-width: 576px;
+	}
+
+	.new-items-catalog {
+		width: auto;
+		max-width: 576px;
+	}
+
+	.display-style {
+		padding-top: 0;
+	}		
 }
 
 @media (max-width: 480px) {
@@ -1533,6 +1810,10 @@ body {
 
 	.more-card-info {
 		padding-left: 5px;
+	}
+
+	.new-items-sort {
+		padding: 15px 10px;
 	}
 }
 
