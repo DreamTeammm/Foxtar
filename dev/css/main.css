@@ -58,6 +58,11 @@ body {
 	text-align: center;
 }
 
+img {
+	width: 100%;
+	height: auto;
+}
+
 ::-webkit-input-placeholder {
 	text-transform: capitalize;
 	color: #90a4ae;
