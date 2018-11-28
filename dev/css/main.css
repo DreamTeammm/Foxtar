@@ -58,11 +58,6 @@ body {
 	text-align: center;
 }
 
-img {
-	width: 100%;
-	height: auto;
-}
-
 ::-webkit-input-placeholder {
 	text-transform: capitalize;
 	color: #90a4ae;
@@ -928,6 +923,11 @@ img {
 /* ---------- END ---------- */
 
 /* ---------- FOOTER ---------- */
+.footer img {
+	width: 100%;
+	height: auto;
+}
+
 .foo-footer {
 	background-color: #263238;
 }
@@ -1478,6 +1478,7 @@ img {
 	width: 100%;
 }
 /* ---------- END ---------- */
+
 
 /* ---------- NEW ITEMS CATALOG SECTION ---------- */
 .new-items-catalog {
