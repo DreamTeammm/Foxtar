@@ -64,7 +64,6 @@ body {
 	font-size: 14px;
 	font-weight: 500;
 }
-
 /* ---------- END ---------- */
 
 /* ---------- HEADER ---------- */
@@ -362,7 +361,6 @@ body {
 	background-color: #fff;
 	margin: 6px 0;
 }
-
 /* ---------- END ---------- */
 
 /* ---------- BANNER ---------- */
@@ -420,7 +418,6 @@ body {
 	padding-bottom: 15px;
 	cursor: pointer;
 }
-
 /* ---------- END ---------- */
 
 /* ---------- POPUP ---------- */
@@ -544,7 +541,6 @@ body {
 	text-transform: capitalize;
 	color: #fff;
 }
-
 /* ---------- END ---------- */
 
 /* ---------- NEWEST PRODUCTS SECTION ---------- */
@@ -656,6 +652,7 @@ body {
 
 .card-caption {
 	font-size: 18px;
+	color: #000;
 	margin-bottom: 20px;
 	font-weight: 500;
 }
@@ -667,6 +664,7 @@ body {
 
 .card-divide {
 	font-size: 13px;
+	color: #8CFF75;
 	margin-bottom: 20px;
 	font-weight: 500;
 }
@@ -710,6 +708,7 @@ body {
 
 .author {
 	font-size: 13px;
+	color: #777;
 	padding-left: 45px;
 	padding-top: 7.5px;
 	font-weight: 500;
@@ -760,7 +759,6 @@ body {
 .shop_line .gap {
 	display: none;
 }
-
 /* ---------- END ---------- */
 
 /* ---------- TRENDING-PRODUCTS ---------- */
@@ -812,7 +810,6 @@ body {
 	max-width: 100%;
 	margin: 0 auto;
 }
-
 /* ---------- END ---------- */
 
 /* ---------- WHY ---------- */
@@ -854,7 +851,6 @@ body {
 	margin-right: auto;
 	margin-bottom: 33px;
 }
-
 /* ---------- END ---------- */
 
 /* ---------- BECOME AUTHOR SECTION ---------- */
@@ -924,7 +920,6 @@ body {
 	margin-left: 20px;
 	font-size: 18px;
 }
-
 /* ---------- END ---------- */
 
 /* ---------- FOOTER ---------- */
@@ -1196,7 +1191,6 @@ body {
 .item-pinterest:hover {
 	background-color: #E37878;
 }
-
 /* ---------- END ---------- */
 
 /* ---------- Tabs ---------- */
@@ -1283,7 +1277,6 @@ body {
 	color: #777;
 	font-weight: 500;
 }
-
 /* ---------- END ---------- */
 
 /* ---------- More Products Section ---------- */
@@ -1349,6 +1342,7 @@ body {
 .more-card-title {
 	display: inline-block;
 	font-size: 13px;
+	color: #000;
 	margin-bottom: 12px;
 	font-weight: 500;
 }
