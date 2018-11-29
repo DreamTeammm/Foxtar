@@ -1391,9 +1391,132 @@ body {
 =======================================
 */
 
+/* ---------- BREADCRUMP SECTION ---------- */
+.content-bg {
+	background-color: #F8FFFF;
+}
+
+.breadcrumb-container {
+	margin-left: 0;
+}
+
+ul.breadcrumb {
+	padding: 40px 16px;
+	margin-bottom: 0;
+	list-style: none;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+	display: inline;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+	padding: 8px;
+	color: black;
+	content: "-"; 
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+	color: #A8B2B8;
+	text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+	color: #01447e;
+	text-decoration: underline;
+}
+/* ---------- END ---------- */
+
+/* ---------- CATEGORIES SECTION ---------- */
+.sidebar {
+	display: inline-block;
+}
+
+.categories-section {
+	margin-bottom: 30px;
+}
+
+.categories-container {
+	margin-bottom: 35px;
+}
+
+.categories-container-inner {
+	padding: 0 15px;
+	display: block;
+	color: #000;
+}
+
+.categories-header {
+	font-size: 20px;
+}
+
+.accordion {
+	list-style: none;
+	padding: 0;
+}
+
+.accordion li {
+	margin: .5em 0;
+}
+
+.accordion .toggle {
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 500;
+	color: #000;
+	padding: .4em 0;
+	text-decoration: none;
+	width: 100%;
+}
+
+.accordion .toggle:hover {
+	color: #8BC34A;
+}
+
+.accordion .category-image {
+	display: inline-block;
+	float: left;
+}
+
+.accordion .category-name {
+	padding-left: 10px;
+	display: inline-block;
+	float: left;
+}
+
+.accordion .category-number {
+	display: inline-block;
+	float: right;
+	color: #90A4AE;	
+}
+
+.accordion .inner {
+	padding-left: 1.8em;
+	overflow: hidden;
+	display: none;
+	list-style-image: url('../images/arrow.png');
+}
+
+.accordion .inner li {
+	font-size: 14px;
+	text-decoration: none;	
+}
+
+.accordion .inner li:hover {
+	color: #8BC34A;
+	cursor: pointer;
+}
+/* ---------- END ---------- */
+
 /* ---------- TOP SELLERS SECTION ---------- */
 .top-sellers {
-	display: inline-block;
+	display: block;
 	border: 1px solid #ccc;
 	background-color: #fff;
 }
@@ -1479,12 +1602,12 @@ body {
 }
 /* ---------- END ---------- */
 
-
 /* ---------- NEW ITEMS CATALOG SECTION ---------- */
 .new-items-catalog {
 	display: inline-block;
 	background-color: #F8FFFF;
 	width: calc(100% - 300px);
+	max-width: 900px;
 }
 
 .new-items-show {
@@ -1830,6 +1953,10 @@ body {
 
 	.banner input {
 		width: 80%;
+	}
+
+	.sidebar {
+		width: 100%;
 	}
 
 	.top-sellers {
