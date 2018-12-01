@@ -929,6 +929,7 @@ body {
 }
 
 .foo-footer {
+	padding-top: 50px;
 	background-color: #263238;
 }
 
