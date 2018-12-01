@@ -170,6 +170,10 @@ body {
 	text-align: center;
 	bottom: 23px;
 	left: 26px;
+	font-style: normal;
+	font-size: 12px;
+	font-weight: 300;
+	line-height: 1.5;
 }
 
 .envelope {
@@ -194,6 +198,10 @@ body {
 	text-align: center;
 	bottom: 23px;
 	left: 26px;
+	font-style: normal;
+	font-size: 12px;
+	font-weight: 300;
+	line-height: 1.5;
 }
 
 .basket {
@@ -217,6 +225,10 @@ body {
 	text-align: center;
 	bottom: 23px;
 	left: 26px;
+	font-style: normal;
+	font-size: 12px;
+	font-weight: 300;
+	line-height: 1.5;
 }
 
 .header_image {
@@ -386,10 +398,12 @@ padding-left: 7px;
 	-webkit-box-pack: center;
 	-ms-flex-pack: center;
 	justify-content: center;
+
 }
 
 .banner.banner-small {
 	min-height: 230px;
+	margin-bottom: 50px;
 }
 
 .banner h1 {
