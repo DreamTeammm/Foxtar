@@ -64,6 +64,12 @@ body {
 	font-size: 14px;
 	font-weight: 500;
 }
+
+.content-box .row {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
 /* ---------- END ---------- */
 
 /* ---------- HEADER ---------- */
@@ -1265,13 +1271,13 @@ padding-left: 7px;
 */
 
 /* ---------- PRODUCT-INFORMATION ---------- */
-.product-container {
-	max-width: 900px;
-	padding-left: 15px;
-	padding-right: 15px;
-	margin-left: auto;
-	margin-right: auto;
-}
+/*.product-container {*/
+	/*max-width: 900px;*/
+	/*padding-left: 15px;*/
+	/*padding-right: 15px;*/
+	/*margin-left: auto;*/
+	/*margin-right: auto;*/
+/*}*/
 
 .product-info {
 	background-color: #F8FFFF;
